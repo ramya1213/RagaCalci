@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout>
+
+    <EditText
+
+        android:layout_column="0"
+        android:layout_row="0"
+        android:id="@+id/et1"
+        android:layout_height="100dp"
+        android:layout_width="380dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/gl"
+        android:layout_row="4"
+        android:layout_column="0">
+        <Button
+            android:layout_column="0"
+            android:layout_row="2"
+            android:id="@+id/btc"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:text="C"
+            />
+
+
+        <Button
+            android:layout_column="1"
+            android:layout_row="3"
+            android:id="@+id/btpi"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text="pie"
+
+            />
+
+        <Button
+            android:layout_column="2"
+            android:layout_row="3"
+            android:id="@+id/btexp"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text="exp"
+
+            />
+
+
+
+        <Button
+            android:layout_column="1"
+            android:layout_row="4"
+            android:id="@+id/btsec"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text=" sec "
+
+            />
+
+        <Button
+            android:layout_column="2"
+            android:layout_row="4"
+            android:id="@+id/btcosec"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text="cosec"
+
+            />
+
+
+
+        <Button
+            android:layout_column="0"
+            android:layout_row="5"
+            android:id="@+id/btsin"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text="sin"
+
+            />
+
+        <Button
+            android:layout_column="2"
+            android:layout_row="5"
+            android:id="@+id/bttan"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text="tan"
+
+            />
+
+        <Button
+            android:layout_column="0"
+            android:layout_row="6"
+            android:id="@+id/btsqrt"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text="sqrt"
+
+            />
+
+        <Button
+            android:layout_column="2"
+            android:layout_row="6"
+            android:id="@+id/btlog"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text=" log "
+
+            />
+
+
+        <Button
+            android:layout_column="1"
+            android:layout_row="5"
+            android:id="@+id/btcos"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text=" cos "
+
+            />
+
+        <Button
+            android:layout_column="0"
+            android:layout_row="3"
+            android:id="@+id/btfact"
+
+            android:text="fact"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            style="@style/Widget.AppCompat.Button" />
+
+        <Button
+            android:layout_column="1"
+            android:layout_row="6"
+            android:id="@+id/btxy"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text=" x^2"
+
+            />
+
+        <Button
+            android:layout_column="0"
+            android:layout_row="4"
+            android:id="@+id/btcot"
+            android:layout_height="60dp"
+            android:layout_width="130dp"
+            android:text="cot"
+
+            />
+
+        <Button
+            android:layout_column="1"
+            android:layout_row="2"
+            android:id="@+id/btb"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:text="back"
+            />
+
+    </GridLayout>
+
+
+</GridLayout>
